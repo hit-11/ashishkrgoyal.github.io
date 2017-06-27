@@ -20,7 +20,7 @@ img
 {
     /*border-radius: 50% 50%;*/
     display: block;
-    border-radius: 5%;
+    border-radius: 50% 50%;
     /*border-style: groove;*/
     /*border-color: black;*/
     border-width: 1px;
@@ -53,7 +53,7 @@ p
 {
     margin-top: 0%;
 }
-a,a:hover
+.social-section a,.social-section a:hover
 {
     color: #ffffff;
 }
@@ -65,7 +65,7 @@ i
 {
     display: block;
     margin:0 auto;
-    width: 5%;
+    width: 30px;
     height: auto;
     text-align: center;
     border-radius: 8%;
@@ -73,7 +73,8 @@ i
 
 .about-me
 {
-    z-index: 9999;
+    /*z-index: 9999;*/
+    margin-top: 17%;
 }
 .about-me h1
 {
