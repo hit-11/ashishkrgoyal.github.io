@@ -30,6 +30,8 @@ img
     font-size: 48px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+    /*color: royalblue;*/
+    color: cornflowerblue;
     margin-top: 2%;
 }
 p
@@ -80,5 +82,5 @@ i
 }
 #feed
 {
-    margin-top: 4%;
+    margin: 4%;
 }
