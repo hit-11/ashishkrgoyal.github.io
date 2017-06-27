@@ -6,6 +6,7 @@ body,html
 {
     width: 100%;
 }
+
 .name-section
 {
     border-top-color: gray;
@@ -74,7 +75,7 @@ i
 .about-me
 {
     /*z-index: 9999;*/
-    margin-top: 17%;
+    margin-top: 13%;
 }
 .about-me h1
 {
