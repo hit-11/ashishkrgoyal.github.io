@@ -125,7 +125,9 @@ i
     /*font-family: 'Cabin', sans-serif;*/
     font-family: 'Cabin', sans-serif;
     text-transform: capitalize;
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #333;
+
     margin-top: 3%;
 }
 .education p
@@ -136,9 +138,17 @@ i
 #secondary-details,#senior-details
 {
     height: 20vmax;
+    background-color: #f8f8f8;
     margin-top: 4%;
     border-radius: 3px;/*9971670194*/
 }
+#secondary-details:hover,#senior-details:hover
+{
+    transform: scale(1.1);
+    transition: transform 1s ease-in;
+    cursor: pointer;
+}
+
 #senior-details h1,#secondary-details h1
 {
     font-size: 2.7vmax;
