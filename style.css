@@ -75,13 +75,15 @@ i
 .about-me
 {
     /*z-index: 9999;*/
+    position: relative;
     margin-top: 13%;
 }
-.about-me h1
+.about-me h1,#education-heading,#my-github
 {
     font-family: 'Montserrat', sans-serif;
     color: #0077b5;
-    margin-top: 4%;
+    margin-top: 2%;
+    text-align: center;
     font-size: 2.4vmax;
     /*border-left: solid 4px black;*/
 }
@@ -112,14 +114,17 @@ i
     color: #ffffff;
     margin-top: 3%;
 }
-.education h1
-{
-    font-family: 'PT Sans', sans-serif;;
-}
 #secondary-details,#senior-details
 {
-    height: 300px;
+    height: 20vmax;
+    margin-top: 4%;
 }
+#senior-details h1,#secondary-details h1
+{
+    font-size: 2.7vmax;
+    font-family: 'PT Sans', sans-serif;;
+}
+
 #feed
 {
     margin: 4%;
