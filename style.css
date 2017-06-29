@@ -17,7 +17,7 @@ body,html
     border-top-style: solid;
     border-top-width: 6px;
     /*height: 25%;*/
-   /* background-color: white;*/
+    /* background-color: white;*/
     /*background-color: #ffffff;*/
     /*background-image:  linear-gradient(49deg,#ffffff,gray 25%,#ffffff 50%,#eb4f6f);*/
     /*background-image: linear-gradient(to right, rgba(107,183,86,0.95), rgba(0,143,104,0.95));
@@ -34,6 +34,7 @@ body,html
     /*border-style: groove;*/
     /*border-color: black;*/
     border-width: 1px;
+    transition: all 0.4s ease-in-out;
     margin: 0 auto;
     margin-top: 2% ;  /*overriding for margin property here by top direction*/
     /*filter: grayscale(70%);*/
@@ -41,7 +42,6 @@ body,html
 .name-section img:hover
 {
     box-shadow: 2px 2px 3px 4px lightgrey;
-    transition: all 0.4s ease-in-out;
 }
 
 .name-section h1
@@ -90,13 +90,14 @@ i
     background-color: rgba(114,186,94,0.15);*/
     /*margin-top: 16%;*/
 }
-.about-me h1,#education-heading,#my-github
+.about-me h1,#education-heading,#my-github,.skills h1
 {
     font-family: 'Montserrat', sans-serif;
     color: #0077b5;
     margin-top: 4%;
     text-align: center;
-    font-size: 2.4vmax;
+    font-size: 3vmax;
+    text-shadow: 2px 2px 6px;
     /*border-left: solid 4px black;*/
 }
 .underline
@@ -115,6 +116,7 @@ i
     border-left: solid 2px lightgrey;
     border-right: solid 2px lightgrey;
     margin-top: 2%;
+    font-family: 'Cabin' ,sans-serif;
 }
 #graph-github
 {
@@ -160,4 +162,19 @@ i
 #feed
 {
     margin: 4%;
+}
+.gha-footer
+{
+    display: none;
+}   /*overriding pre written CSS for github contributions*/
+.skills-div
+{
+    height: 40px;
+    background-color: lightblue;
+}
+.footer
+{
+    background-color: #cccccc;
+    color: #000;
+    font-family: sans-serif;
 }
