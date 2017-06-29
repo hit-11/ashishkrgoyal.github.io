@@ -29,10 +29,15 @@ body,html
     margin-top: 2% ;  /*overriding for margin property here by top direction*/
     /*filter: grayscale(70%);*/
 }
+.name-section img:hover
+{
+    box-shadow: 2px 2px 3px 4px lightgrey;
+    transition: all 0.4s ease-in-out;
+}
 
 .name-section h1
 {
-    font-size: 48px;
+    font-size: 3vmax;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     /*color: royalblue;*/
@@ -41,10 +46,9 @@ body,html
 }
 p
 {
-    font-size: 22px;
+    font-size: 2vmax;
     font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
-
 }
 .social-section
 {
@@ -76,15 +80,45 @@ i
 .about-me h1
 {
     font-family: 'Montserrat', sans-serif;
+    color: #0077b5;
+    margin-top: 4%;
+    font-size: 2.4vmax;
+    /*border-left: solid 4px black;*/
+}
+.underline
+{
+    margin: 0 auto;
+    display: block;
+    height: 1px;
+    background-color: black;
+    width: 8vmax;
 }
 .about-me p
 {
-    font-size: 22px;
+    font-size: 1.8vmax;
+    letter-spacing: 1.1px;
     text-align: center;
+    border-left: solid 2px lightgrey;
+    border-right: solid 2px lightgrey;
+    margin-top: 2%;
 }
 #graph-github
 {
     margin-top: 5%;
+}
+.education
+{
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-top: 3%;
+}
+.education h1
+{
+    font-family: 'PT Sans', sans-serif;;
+}
+#secondary-details,#senior-details
+{
+    height: 300px;
 }
 #feed
 {
