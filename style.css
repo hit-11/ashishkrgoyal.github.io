@@ -143,11 +143,12 @@ i
     border-radius: 3px;
     z-index: 9999;
     box-shadow: 0 0 10px 3px;
+    transition: transform 1s ease-in;
 }
 #secondary-details:hover,#senior-details:hover
 {
     transform: scale(1.1);
-    transition: transform 1s ease-in;
+
     cursor: pointer;
 }
 
