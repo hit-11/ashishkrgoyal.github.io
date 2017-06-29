@@ -6,16 +6,25 @@ body,html
 {
     width: 100%;
 }
+.name-section
+{
+    /*background-color: lightgrey;*/
 
+}
 .name-section
 {
     border-top-color: gray;
     border-top-style: solid;
     border-top-width: 6px;
-    height: 25%;
-    background-color: white;
+    /*height: 25%;*/
+   /* background-color: white;*/
+    /*background-color: #ffffff;*/
+    /*background-image:  linear-gradient(49deg,#ffffff,gray 25%,#ffffff 50%,#eb4f6f);*/
+    /*background-image: linear-gradient(to right, rgba(107,183,86,0.95), rgba(0,143,104,0.95));
+    clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);*/
+    clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
     color: #000;
-    z-index: 9999;
+    /*z-index: 9999;*/
 }
 .name-section img
 {
@@ -44,7 +53,7 @@ body,html
     color: cornflowerblue;
     margin-top: 2%;
 }
-p
+.name-section p,.about-me p
 {
     font-size: 2vmax;
     font-family: 'Raleway', sans-serif;
@@ -52,7 +61,8 @@ p
 }
 .social-section
 {
-    margin-top: 0%;
+    margin-top: 0;
+    margin-bottom: 2%;
 }
 .social-section a,.social-section a:hover
 {
@@ -76,13 +86,15 @@ i
 {
     /*z-index: 9999;*/
     position: relative;
-    margin-top: 13%;
+    /*clip-path: polygon(0 0px, 100% 100px, 100% 100%, 0px 100%);
+    background-color: rgba(114,186,94,0.15);*/
+    /*margin-top: 16%;*/
 }
 .about-me h1,#education-heading,#my-github
 {
     font-family: 'Montserrat', sans-serif;
     color: #0077b5;
-    margin-top: 2%;
+    margin-top: 4%;
     text-align: center;
     font-size: 2.4vmax;
     /*border-left: solid 4px black;*/
@@ -97,7 +109,7 @@ i
 }
 .about-me p
 {
-    font-size: 1.8vmax;
+    font-size: 1.6vmax;
     letter-spacing: 1.1px;
     text-align: center;
     border-left: solid 2px lightgrey;
@@ -110,21 +122,28 @@ i
 }
 .education
 {
+    /*font-family: 'Cabin', sans-serif;*/
+    font-family: 'Cabin', sans-serif;
     text-transform: capitalize;
     color: #ffffff;
     margin-top: 3%;
+}
+.education p
+{
+    font-size: 1.7vmax;
+    letter-spacing: 1.2px;
 }
 #secondary-details,#senior-details
 {
     height: 20vmax;
     margin-top: 4%;
+    border-radius: 3px;/*9971670194*/
 }
 #senior-details h1,#secondary-details h1
 {
     font-size: 2.7vmax;
-    font-family: 'PT Sans', sans-serif;;
+    /*font-family: 'PT Sans', sans-serif;*/
 }
-
 #feed
 {
     margin: 4%;
