@@ -90,7 +90,7 @@ i
     background-color: rgba(114,186,94,0.15);*/
     /*margin-top: 16%;*/
 }
-.about-me h1,#education-heading,#my-github,.skills h1
+.about-me h1,#education-heading,#my-github,.skills h1,#contact-form h1
 {
     font-family: 'Montserrat', sans-serif;
     color: #0077b5;
@@ -177,12 +177,12 @@ i
 }
 .skills-div
 {
-    height: 40px;
+    height: 28px;
     border-radius: 3px;
-    margin-top: 2%;
+    /*margin-top: 2%;*/
     opacity:0.9;
     z-index: 9999;
-    box-shadow: 0 0 2px 1px;
+    /*box-shadow: 0 0 2px 1px;*/
     /*background-color: lightblue;*/
 }
 .skills-div span
@@ -191,6 +191,15 @@ i
     text-transform: uppercase;
     font-size: large;
     font-family: Cabin, 'sans-serif'
+}
+.upper-div
+{
+    width:100%;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    height: 28px;
+    margin-top: 2%;
+    box-shadow: 0 0 2px 1px;
 }
 .html
 {
