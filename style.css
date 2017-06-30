@@ -22,7 +22,7 @@ body,html
     /*background-image:  linear-gradient(49deg,#ffffff,gray 25%,#ffffff 50%,#eb4f6f);*/
     /*background-image: linear-gradient(to right, rgba(107,183,86,0.95), rgba(0,143,104,0.95));
     clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);*/
-    clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);*/
     color: #000;
     /*z-index: 9999;*/
 }
@@ -144,7 +144,7 @@ i
     margin-top: 4%;
     border-radius: 3px;
     z-index: 9999;
-    box-shadow: 0 0 10px 3px;
+    box-shadow: 0 0 7px 3px;
     transition: transform 1s ease-in;
 }
 #secondary-details:hover,#senior-details:hover
@@ -167,14 +167,89 @@ i
 {
     display: none;
 }   /*overriding pre written CSS for github contributions*/
+.calendar
+{
+    width:100%;
+}
+.skills
+{
+    
+}
 .skills-div
 {
     height: 40px;
+    border-radius: 3px;
+    margin-top: 2%;
+    opacity:0.9;
+    z-index: 9999;
+    box-shadow: 0 0 2px 1px;
     /*background-color: lightblue;*/
+}
+.skills-div span
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    font-family: Cabin, 'sans-serif'
+}
+.html
+{
+    background-color: #e34f26;
+    width: 95%;
+    /*opacity: 0.8;*/
+}
+.css
+{
+    background-color: #00a4e4;
+    width:93%;
+}
+.javascript
+{
+    background-color: darkseagreen;
+    width: 85%;
+}
+.jquery
+{
+    background-color: #0769ad;
+    width: 87%;
+}
+.C
+{
+    background-color: #cccccc;
+    width: 75%;
+}
+.bootstrap
+{
+    background-color: #6f5499;
+}
+.mysql
+{
+    background-color: #00758f;
+    width: 60%;
+}
+.mongoDB
+{
+    background-color: #589636;
+    width: 50%;
+}
+.java
+{
+    width: 65%;
+}
+.nodejs
+{
+    background-color: #6cc24a;
+    width: 80%;
+}
+.expressjs
+{
+    background-color: #9f9fa3;
+    width: 75%;
 }
 .footer
 {
-    background-color: #cccccc;
-    color: #000;
+    margin-top: 2%;
+    background-color: #000;
+    color: #ffffff;
     font-family: sans-serif;
 }
