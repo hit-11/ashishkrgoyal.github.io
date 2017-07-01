@@ -53,7 +53,14 @@ body,html
     color: cornflowerblue;
     margin-top: 2%;
 }
-.name-section p,.about-me p
+.name-section p
+{
+    font-family: "Lato", arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 2vmax;
+    font-weight: bolder;
+}
+.about-me p
 {
     font-size: 2vmax;
     font-family: 'Raleway', sans-serif;
@@ -63,6 +70,10 @@ body,html
 {
     margin-top: 0;
     margin-bottom: 2%;
+}
+i.fa.fa-github.fa-2x {
+    margin-left: 4px;
+    margin-right: 4px;
 }
 .social-section a,.social-section a:hover
 {
@@ -80,6 +91,7 @@ i
     height: auto;
     text-align: center;
     border-radius: 8%;
+    box-shadow: 0 0 5px 1px black;
 }
 
 .about-me
@@ -89,6 +101,13 @@ i
     /*clip-path: polygon(0 0px, 100% 100px, 100% 100%, 0px 100%);
     background-color: rgba(114,186,94,0.15);*/
     /*margin-top: 16%;*/
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 90%;
+    background-color: #f6f6f5;
+    box-shadow: 0 0 10px;
+    padding-bottom: 2%;
 }
 .about-me h1,#education-heading,#my-github,.skills h1,#contact-form h1
 {
@@ -99,6 +118,10 @@ i
     font-size: 3vmax;
     text-shadow: 2px 2px 6px;
     /*border-left: solid 4px black;*/
+}
+.about-me h1
+{
+    margin-top: 2%;
 }
 .underline
 {
@@ -144,13 +167,14 @@ i
     margin-top: 4%;
     border-radius: 3px;
     z-index: 9999;
-    box-shadow: 0 0 7px 3px;
+    /*box-shadow: 0 0 7px 3px;*/
+    box-shadow: 0 0 10px;
     transition: transform 1s ease-in;
 }
 #secondary-details:hover,#senior-details:hover
 {
     transform: scale(1.1);
-
+    box-shadow: 0 0 7px 3px;
     cursor: pointer;
 }
 
@@ -177,7 +201,7 @@ i
 }
 .skills-div
 {
-    height: 28px;
+    height: 22px;
     border-radius: 3px;
     /*margin-top: 2%;*/
     opacity:0.9;
@@ -194,10 +218,13 @@ i
 }
 .upper-div
 {
-    width:100%;
+    /*width:100%;*/
+    width: 70%;
+    display: block;
+    margin:0 auto;
     background-color: whitesmoke;
     border-radius: 3px;
-    height: 28px;
+    height: 22px;
     margin-top: 2%;
     box-shadow: 0 0 2px 1px;
 }
@@ -230,6 +257,7 @@ i
 .bootstrap
 {
     background-color: #6f5499;
+    width: 90%;
 }
 .mysql
 {
