@@ -45,7 +45,7 @@ body,html
 }
 .name-section img:hover
 {
-    box-shadow: 0 0 8px 2px;
+    box-shadow: 0 0 8px 2px cornflowerblue;
 }
 
 .name-section h1
@@ -111,10 +111,9 @@ i
     /*margin-top: 16%;*/
     display: block;
     margin: 0 auto;
-    margin-top: 0%;
     width: 97%;
     background-color: #f6f6f5;
-    box-shadow: 0 0 10px 1px;
+    box-shadow: 0 0 10px 1px cornflowerblue;
     padding-bottom: 2%;
     transition: all 0.7s ease-in;
 
@@ -175,13 +174,13 @@ i
     margin-top: 7%;
     border-radius: 3px;
     /*box-shadow: 0 0 7px 3px;*/
-    box-shadow: 0 0 3px;
+    box-shadow: 0 0 3px cornflowerblue;
     transition: transform 0.5s ease-in;
 }
 #secondary-details:hover,#senior-details:hover
 {
     transform: scale(1.04);
-    box-shadow: 0 0 7px 1px;
+    box-shadow: 0 0 7px 1px cornflowerblue;
     cursor: pointer;
 }
 
