@@ -9,7 +9,7 @@ body,html
 .name-section
 {
     /*background-color: lightgrey;*/
-
+    height: 100vh;
 }
 .name-section
 {
@@ -35,13 +35,17 @@ body,html
     /*border-color: black;*/
     border-width: 1px;
     transition: all 0.4s ease-in-out;
-    margin: 0 auto;
-    margin-top: 2% ;  /*overriding for margin property here by top direction*/
+    margin:0 auto;
+    margin-top: 7% ;  /*overriding for margin property here by top direction*/
     /*filter: grayscale(70%);*/
+    animation-name: scaling;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
 }
 .name-section img:hover
 {
-    box-shadow: 2px 2px 3px 4px lightgrey;
+    box-shadow: 0 0 8px 2px;
 }
 
 .name-section h1
@@ -55,20 +59,24 @@ body,html
 }
 .name-section p
 {
-    font-family: "Lato", arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     font-size: 2vmax;
-    font-weight: bolder;
+    font-weight: 500;
 }
 .about-me p
 {
-    font-size: 2vmax;
-    font-family: 'Raleway', sans-serif;
-    text-transform: capitalize;
+    font-size: 1.6vmax;
+    letter-spacing: 1.1px;
+    text-align: center;
+    border-left: solid 2px lightgrey;
+    border-right: solid 2px lightgrey;
+    margin: 3% 0 3% 0;
+    padding: 1.45%;
 }
 .social-section
 {
-    margin-top: 0;
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 i.fa.fa-github.fa-2x {
@@ -97,19 +105,28 @@ i
 .about-me
 {
     /*z-index: 9999;*/
-    position: relative;
+
     /*clip-path: polygon(0 0px, 100% 100px, 100% 100%, 0px 100%);
     background-color: rgba(114,186,94,0.15);*/
     /*margin-top: 16%;*/
     display: block;
     margin: 0 auto;
-    margin-top: 2%;
-    width: 90%;
+    margin-top: 0%;
+    width: 97%;
     background-color: #f6f6f5;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px 1px;
     padding-bottom: 2%;
+    transition: all 0.7s ease-in;
+
 }
-.about-me h1,#education-heading,#my-github,.skills h1,#contact-form h1
+/*.about-me:hover
+{
+    box-shadow: none;
+    background-color: white;
+    !*font-size: 2.1vmax;*!
+    font-weight: 500;
+}*/
+.about-me h1,#education-heading,#my-github,.skills h1,#contact-form h1,.work-experience h1
 {
     font-family: 'Montserrat', sans-serif;
     color: #0077b5;
@@ -127,20 +144,11 @@ i
 {
     margin: 0 auto;
     display: block;
-    height: 1px;
+    height: 2px;
     background-color: black;
-    width: 8vmax;
+    width: 14vmax;
 }
-.about-me p
-{
-    font-size: 1.6vmax;
-    letter-spacing: 1.1px;
-    text-align: center;
-    border-left: solid 2px lightgrey;
-    border-right: solid 2px lightgrey;
-    margin-top: 2%;
-    font-family: 'Cabin' ,sans-serif;
-}
+
 #graph-github
 {
     margin-top: 5%;
@@ -152,35 +160,35 @@ i
     text-transform: capitalize;
     /*color: #ffffff;*/
     color: #333;
-
-    margin-top: 3%;
+    margin-top: 4%;
 }
 .education p
 {
     font-size: 1.7vmax;
     letter-spacing: 1.2px;
+    color: #93a4aa
 }
 #secondary-details,#senior-details
 {
-    height: 20vmax;
+    height: 21vmax;
     background-color: #f8f8f8;
-    margin-top: 4%;
+    margin-top: 7%;
     border-radius: 3px;
-    z-index: 9999;
     /*box-shadow: 0 0 7px 3px;*/
-    box-shadow: 0 0 10px;
-    transition: transform 1s ease-in;
+    box-shadow: 0 0 3px;
+    transition: transform 0.5s ease-in;
 }
 #secondary-details:hover,#senior-details:hover
 {
-    transform: scale(1.1);
-    box-shadow: 0 0 7px 3px;
+    transform: scale(1.04);
+    box-shadow: 0 0 7px 1px;
     cursor: pointer;
 }
 
 #senior-details h1,#secondary-details h1
 {
-    font-size: 2.7vmax;
+    font-size: 33px;
+    margin-bottom: 25px;
     /*font-family: 'PT Sans', sans-serif;*/
 }
 #feed
@@ -197,7 +205,7 @@ i
 }
 .skills
 {
-    
+
 }
 .skills-div
 {
@@ -283,10 +291,43 @@ i
     background-color: #9f9fa3;
     width: 75%;
 }
+
+.company-profile h2
+{
+    text-transform: capitalize;
+    font-family: initial;
+}
+.company-profile span
+{
+    color: gray;
+}
 .footer
 {
     margin-top: 2%;
     background-color: #000;
-    color: #ffffff;
     font-family: sans-serif;
+}
+footer h3
+{
+    font-size: medium;
+    letter-spacing: 1.2px;
+    color: lightgray;
+}
+@keyframes  scaling {
+    0%
+    {
+        transform: scale(1.0);
+    }
+    25%
+    {
+        transform: scale(1.04);
+    }
+    75%
+    {
+        transform: scale(1.09);
+    }
+    100%
+    {
+        transform: scale(1.0);
+    }
 }
