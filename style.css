@@ -64,16 +64,7 @@ body,html
     font-size: 2vmax;
     font-weight: 500;
 }
-.about-me p
-{
-    font-size: 1.6vmax;
-    letter-spacing: 1.1px;
-    text-align: center;
-    border-left: solid 2px lightgrey;
-    border-right: solid 2px lightgrey;
-    margin: 3% 0 3% 0;
-    padding: 1.45%;
-}
+
 .social-section
 {
     margin-top: 2%;
@@ -125,6 +116,17 @@ i
     !*font-size: 2.1vmax;*!
     font-weight: 500;
 }*/
+.about-me p
+{
+    font-size: 1.6vmax;
+    letter-spacing: 1.1px;
+    font-family: 'Roboto','sans-serif';
+    text-align: center;
+    border-left: solid 2px lightgrey;
+    border-right: solid 2px lightgrey;
+    margin: 3% 0 3% 0;
+    padding: 1.45%;
+}
 .about-me h1,#education-heading,#my-github,.skills h1,#contact-form h1,.work-experience h1
 {
     font-family: 'Montserrat', sans-serif;
@@ -132,7 +134,7 @@ i
     margin-top: 4%;
     text-align: center;
     font-size: 3vmax;
-    text-shadow: 2px 2px 6px;
+
     /*border-left: solid 4px black;*/
 }
 .about-me h1
@@ -202,13 +204,13 @@ i
 {
     width:100%;
 }
-.skills
+.skills .underline
 {
-
+    margin-bottom: 4%
 }
 .skills-div
 {
-    height: 22px;
+    height: 18px;
     border-radius: 3px;
     /*margin-top: 2%;*/
     opacity:0.9;
@@ -220,7 +222,7 @@ i
 {
     color: white;
     text-transform: uppercase;
-    font-size: large;
+    font-size: medium;
     font-family: Cabin, 'sans-serif'
 }
 .upper-div
@@ -231,9 +233,9 @@ i
     margin:0 auto;
     background-color: whitesmoke;
     border-radius: 3px;
-    height: 22px;
-    margin-top: 2%;
-    box-shadow: 0 0 2px 1px;
+    height: 18px;
+    margin-top: 1.9%;
+    box-shadow: 0 0 2px 1px cornflowerblue;
 }
 .html
 {
@@ -279,6 +281,8 @@ i
 .java
 {
     width: 65%;
+    background-color: gray;
+
 }
 .nodejs
 {
