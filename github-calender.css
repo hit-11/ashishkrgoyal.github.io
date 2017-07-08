@@ -65,7 +65,8 @@
     text-align: center;
     border-left: 1px solid #ddd;
     border-top: 1px solid #ddd;
-    font-size: 11px;
+    font-size: 13px;
+    letter-spacing: 0.5px
 }
 
 .contrib-column-first {
@@ -81,7 +82,8 @@
 }
 
 .contrib-number {
-    font-weight: 300;
+    font-weight: 500;
+    font-family: 'Roboto','sans-serif';
     line-height: 1.3em;
     font-size: 24px;
     display: block;
@@ -134,4 +136,6 @@ h2.f4.text-normal.mb-3 {
 
 .float-left.text-gray {
     float: left;
+    font-size: small;
+    font-weight: bold;
 }
