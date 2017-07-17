@@ -102,9 +102,8 @@ i
     /*margin-top: 16%;*/
     display: block;
     margin: 0 auto;
-    width: 97%;
     background-color: #f6f6f5;
-    box-shadow: 0 0 10px 1px cornflowerblue;
+    box-shadow: 0 0 5px 1px cornflowerblue;
     padding-bottom: 2%;
     transition: all 0.7s ease-in;
 
@@ -118,9 +117,9 @@ i
 }*/
 .about-me p
 {
-    font-size: 1.6vmax;
+    font-size: 26px;
     letter-spacing: 1.1px;
-    font-family: 'Roboto','sans-serif';
+    font-family: 'Open Sans','sans-serif';
     text-align: center;
     border-left: solid 2px lightgrey;
     border-right: solid 2px lightgrey;
