@@ -328,6 +328,35 @@ i
     font-family: 'monospace','sans-serif';
     text-transform: capitalize;
 }
+form
+{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    font-size: large;
+}
+.form-control,.btn
+{
+    border-radius: 0!important;
+    margin-top: 4%;
+    resize: none;
+    box-shadow: 0 0 2px;
+    font-family: 'Cabin' , sans-serif;
+}
+.btn
+{
+    display: block;
+    margin: 4% auto 0 auto;
+    width: 60%;
+}
+input::placeholder,textarea::placeholder
+{
+    font-family: 'Cabin' , sans-serif;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+
 .footer
 {
     margin-top: 2%;
