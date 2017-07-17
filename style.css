@@ -295,6 +295,7 @@ i
 }
 .certifications
 {
+    font-family:'Arvo','Open Sans', 'sans-serif';
     margin-top: 3%;
     background-color: #f8f8f8;
 }
@@ -309,7 +310,7 @@ i
 }
 .certifications-detailing h1
 {
-    font-family: 'monospace', 'sans-serif';
+    /*font-family: 'monospace', 'sans-serif';*/
     font-weight: 500;
     text-transform: capitalize;
     font-size: 30px;
