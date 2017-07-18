@@ -50,7 +50,7 @@ body,html
 
 .name-section h1
 {
-    font-size: 3vmax;
+    font-size: 40px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     /*color: royalblue;*/
@@ -61,7 +61,7 @@ body,html
 {
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
-    font-size: 2vmax;
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -123,7 +123,7 @@ i
     text-align: center;
     border-left: solid 2px lightgrey;
     border-right: solid 2px lightgrey;
-    margin: 3% 0 3% 0;
+    margin: 0 0 0 0;
     padding: 1.45%;
 }
 .about-me h1,#education-heading,#my-github,.skills h1,#contact-form h1,.work-experience-heading h1,.certifications-heading
@@ -132,7 +132,7 @@ i
     color: #0077b5;
     margin-top: 4%;
     text-align: center;
-    font-size: 3vmax;
+    font-size: 35px;
     text-transform: capitalize;
     /*border-left: solid 4px black;*/
 }
