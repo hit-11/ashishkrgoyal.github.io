@@ -164,23 +164,23 @@ i
 }
 .education p
 {
-    font-size: 1.7vmax;
+    font-size: 25px;
     letter-spacing: 1.2px;
     color: #93a4aa
 }
 #secondary-details,#senior-details
 {
-    height: 21vmax;
+    height: auto;
     background-color: #f8f8f8;
     margin-top: 7%;
     border-radius: 3px;
     /*box-shadow: 0 0 7px 3px;*/
-    box-shadow: 0 0 3px cornflowerblue;
-    transition: transform 0.5s ease-in;
+    box-shadow: 0 0 18px 1px cornflowerblue;
+    transition: transform 1s ease-in;
 }
 #secondary-details:hover,#senior-details:hover
 {
-    transform: scale(1.04);
+    transform: scale(1.1);
     box-shadow: 0 0 7px 1px cornflowerblue;
     cursor: pointer;
 }
@@ -392,5 +392,31 @@ footer a,footer a:hover
     100%
     {
         transform: scale(1.0);
+    }
+}
+@media(max-width:1170px)
+{
+    #graph-github
+    {
+        display: none;
+    }
+}
+@media(max-width:1200px)
+{
+    form
+    {
+        width: 90%;
+    }
+    #senior-details,#secondary-details
+    {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+}
+@media(max-width: 762px) {
+    #education p
+    {
+        font-size: 12px;
     }
 }
