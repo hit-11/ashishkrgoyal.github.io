@@ -419,4 +419,38 @@ footer a,footer a:hover
     {
         font-size: 12px;
     }
+    .name-section h1
+    {
+        margin-top: 25%;
+        font-size: x-large;
+    }
+    .name-section p
+    {
+        font-size: larger;
+    }
+    .about-me h1
+    {
+        font-size: x-large;
+    }
+    .about-me p
+    {
+        font-size: larger;
+    }
+    #secondary-details,#senior-details
+    {
+        width: 100%;
+    }
+    #senior-details h1,#secondary-details h1
+    {
+        font-size: x-large;
+    }
+    #secondary-details p,#senior-details p
+    {
+        font-size: larger;
+    }
+    .upper-div
+    {
+        width: 90%;
+        margin-top: 6%;
+    }
 }
