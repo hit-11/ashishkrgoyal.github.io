@@ -30,15 +30,16 @@ body,html
 {
     /*border-radius: 50% 50%;*/
     display: block;
-    border-radius: 50% 50%;
+    /*border-radius: 50% 50%;*/
     /*border-style: groove;*/
     /*border-color: black;*/
     border-width: 1px;
     transition: all 0.4s ease-in-out;
     margin:0 auto;
+    box-shadow: 0 0 10px 0.4px cornflowerblue;
     margin-top: 7% ;  /*overriding for margin property here by top direction*/
     /*filter: grayscale(70%);*/
-    animation-name: scaling;
+    /*animation-name: scaling;*/
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
     animation-timing-function: linear;
