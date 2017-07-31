@@ -176,7 +176,7 @@ i
     margin-top: 7%;
     border-radius: 3px;
     /*box-shadow: 0 0 7px 3px;*/
-    box-shadow: 0 0 18px 1px cornflowerblue;
+    box-shadow: 0 0 10px 1px cornflowerblue;
     transition: transform 1s ease-in;
 }
 #secondary-details:hover,#senior-details:hover
@@ -333,7 +333,7 @@ form
 {
     width: 60%;
     display: block;
-    margin: 4% auto 0 auto;
+    margin: 4% auto 2% auto;
     /*margin-top: 4%;*/
     font-size: x-large;
 }
@@ -448,6 +448,14 @@ footer a,footer a:hover
     #secondary-details p,#senior-details p
     {
         font-size: larger;
+    }
+    .certifications-detailing h1
+    {
+        font-size: 24px;
+    }
+    .certifications-detailing p
+    {
+        font-size: 20px;
     }
     .upper-div
     {
