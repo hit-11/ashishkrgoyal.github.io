@@ -203,8 +203,7 @@ i
     /*margin-top: 2%;*/
     opacity:0.9;
     z-index: 9999;
-    /*box-shadow: 0 0 2px 1px;*/
-    /*background-color: lightblue;*/
+
 }
 .skills-div span
 {
@@ -367,6 +366,10 @@ footer a,footer a:hover
     text-decoration: none;
     color: lightgray;
 
+}
+a:hover, a:visited, a:focus
+{
+    text-decoration: none;
 }
 @keyframes  scaling {
     0%
