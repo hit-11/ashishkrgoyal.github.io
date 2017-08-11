@@ -146,10 +146,10 @@ i
 .education
 {
     /*font-family: 'Cabin', sans-serif;*/
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-transform: capitalize;
-    /*color: #ffffff;*/
     color: #333;
+    font-weight: 600;
     margin-top: 4%;
 }
 .education p
@@ -164,7 +164,6 @@ i
     background-color: #f8f8f8;
     margin-top: 7%;
     border-radius: 3px;
-    /*box-shadow: 0 0 7px 3px;*/
     box-shadow: 0 0 10px 1px cornflowerblue;
     transition: transform 1s ease-in;
 }
@@ -179,7 +178,7 @@ i
 {
     font-size: 33px;
     margin-bottom: 25px;
-    /*font-family: 'PT Sans', sans-serif;*/
+    font-weight: 700;
 }
 #feed
 {
@@ -457,5 +456,9 @@ footer a,footer a:hover
     {
         width: 90%;
         margin-top: 6%;
+    }
+    form
+    {
+        width: 100%;
     }
 }
