@@ -29,18 +29,26 @@
   .timeline h3 {
     color: inherit;
     font-weight: 300; }
-  .timeline .timeline-items {
+  .timeline .timeline-items
+  {
     list-style-type: none;
     overflow: hidden;
     padding-top: 50px;
-    padding-left: 0; }
-    .timeline .timeline-items .timeline-item {
+    padding-left: 0;
+
+  }
+    .timeline .timeline-items .timeline-item
+    {
       position: relative;
       margin-bottom: 50px;
       left: -10px;
       padding: 20px;
       background-color: white;
-      width: 45%; }
+      width: 45%;
+      box-shadow: 0 5px 5px 5px lightgray;
+    }
+
+
       .timeline .timeline-items .timeline-item h3 {
         font-weight: 700; }
       .timeline .timeline-items .timeline-item.is-hidden {
@@ -164,5 +172,15 @@
             border-left: 1em solid transparent;
             border-right: 1em solid transparent;
             border-bottom: 1em solid #e57373; }
-
+@keyframes animate {
+  0%
+  {
+    transform: scaleZ(1);
+  }
+  100%
+  {
+    transform: scaleZ(1.2);
+    z-index: 9999;
+  }
+}
 /*# sourceMappingURL=timelify.css.map */

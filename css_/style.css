@@ -291,6 +291,10 @@ i
     margin-top: 3%;
     background-color: #f8f8f8;
 }
+.certifications-detailing
+{
+    display: none;
+}
 .certifications-detailing,.timeline
 {
     margin-top: 3%;
@@ -401,6 +405,14 @@ a:hover, a:visited, a:focus
 @media(max-width:1170px)
 {
     #graph-github
+    {
+        display: none;
+    }
+    .certifications-detailing
+    {
+        display: block;
+    }
+    .timeline
     {
         display: none;
     }
