@@ -51,19 +51,20 @@ body,html
 
 .name-section h1
 {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 42px;
+    font-weight: 800;
     font-family: 'Nunito', sans-serif;
-    /*color: royalblue;*/
+    letter-spacing: 2px;
     color: cornflowerblue;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .name-section p
 {
     font-family: 'Nunito', sans-serif;
     text-transform: capitalize;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 .social-section
@@ -98,6 +99,7 @@ i
 {
     display: block;
     margin: 0 auto;
+    margin-top: 6%;
     background-color: #f6f6f5;
     box-shadow: 0 0 5px 1px cornflowerblue;
     padding-bottom: 2%;
