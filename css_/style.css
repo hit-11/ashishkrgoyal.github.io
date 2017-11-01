@@ -126,6 +126,7 @@ i
     text-align: center;
     font-size: 38px;
     text-transform: capitalize;
+    letter-spacing: 3px;
     /*border-left: solid 4px black;*/
 }
 .about-me h1
@@ -136,7 +137,7 @@ i
 {
     margin: 0 auto;
     display: block;
-    height: 2px;
+    height: 0px;
     background-color: black;
     width: 14vmax;
 }
