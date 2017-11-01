@@ -117,14 +117,14 @@ i
     margin: 0 0 0 0;
     padding: 1.45%;
 }
-.about-me h1,#education-heading,#my-github,.skills h1,#contact-form h1,.work-experience-heading h1,.certifications-heading h1
+.about-me h1,#education-heading,#my-github,.skills h1,#contact-form h1,.work-experience-heading h1,.certifications-heading h1,.github-graph-heading h1
 {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     color: #0077b5;
     margin-top: 4%;
     text-align: center;
-    font-size: 38px;
+    font-size: 40px;
     text-transform: capitalize;
     letter-spacing: 3px;
     /*border-left: solid 4px black;*/

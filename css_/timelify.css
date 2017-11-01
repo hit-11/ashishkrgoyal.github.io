@@ -32,11 +32,11 @@
   .timeline .timeline-items {
     list-style-type: none;
     overflow: hidden;
-    padding-top: 110px;
+    padding-top: 50px;
     padding-left: 0; }
     .timeline .timeline-items .timeline-item {
       position: relative;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
       left: -10px;
       padding: 20px;
       background-color: white;
@@ -90,7 +90,7 @@
       .timeline .timeline-items .timeline-item.inverted {
         position: relative;
         left: 54%;
-        text-align: right; }
+        text-align: left; }
         .timeline .timeline-items .timeline-item.inverted::before {
           content: '';
           width: 0;
